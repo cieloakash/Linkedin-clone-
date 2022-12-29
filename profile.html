@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang=""en>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Linkedin Replica </title>
+        <link rel="stylesheet" href="newStyle.css">
+    </head>
+    <body>
+         <nav class="navbar">
+
+            
+            <div class="navbar-left">
+                <a href="newIndex.html" class="logo"><img src="images/logo.png" alt="logo image"></a>
+
+                <div class="search-box">
+                    <img src="images/search.png" >
+                    <input type="text" placeholder="search">
+                </div>
+
+            </div>
+
+
+
+            
+            <!-- creating nav icons -->
+            <div class="navbar-center">
+                <ul>
+                    <li><a href="#" class="active-link"><img src="images/home.png" alt="home image"><span>Home</span></a></li>
+                    <li><a href="#"><img src="images/network.png" ><span>My Network</span></a></li>
+                    <li><a href="#"><img src="images/jobs.png" ><span>Jobs</span></a></li>
+                    <li><a href="#"><img src="images/message.png" ><span>Messaging</span></a></li>
+                    <li><a href="#"><img src="images/notification.png" ><span>Notifications</span></a></li>
+
+                </ul>
+            </div>
+
+<!-- right side of the navigation bar profile pic and all -->
+            <div class="navbar-right">
+                <div class="online">
+                    <img src="images/user-1.png"  class="nav-profile-img" onclick="toggleMenu()" >
+                </div>                
+            </div>
+<!-- ================  profile  dropdown menu ========  -->
+            <div class="profile-menu-wrap" id="profileMenu">
+                <div class="profile-menu">
+                    <div class="user-info">
+                     <img src="images/user-1.png" >
+
+                      <div>
+                        <h3>Marcus Smith</h3>
+                        <a href="profile.html">See your profile.</a>
+                      </div>
+                    </div>
+                    <hr>
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/feedback.png">
+                        <p>
+                            Give Feedback
+                        </p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/setting.png">
+                        <p>
+                            Settings & Privacy
+                        </p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/help.png">
+                        <p>
+                            Help & Support
+                        </p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/display.png">
+                        <p>
+                            Display & Accessibility
+                        </p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/logout.png">
+                        <p>
+                            Logout
+                        </p>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+         </nav>
+
+<!-- ----------------------- Navbar End ------------------- -->
+
+
+<div class="container">
+    <div class="profile-main">
+        <div class="profile-container">
+            <img src="images/cover-pic.png" width="100%" >
+            <div class="profile-container-inner">
+                <img src="images/user-1.png"  class="profile-pic">
+                <h1>Marcus Smith</h1>
+                <b>Web Developer at Google | Former developer at Master Card </b>
+                <p>Dublin,Ireland &middot; <a href="#">Contact Info</a></p>
+                <div class="mutual-connection">
+                    <img src="images/user-2.png" alt="">
+                    <span>1 mutual-connection: Owen Farrell</span>
+                </div>
+
+                <div class="profile-btn">
+                    <a href="#" class=".primary-btn"><img src="images/connect.png" >Connect</a>
+                    <a href="#"><img src="images/chat.png" >Message</a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-description">
+            <h2>About</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia nihil, ratione illum officiis error neque consequuntur corporis sapiente quos nostrum quis in dolor fugiat, consequatur tenetur, eius et qui doloremque labore explicabo nulla nisi sed dolore.
+                 Officia magnam rem optio ad alias nulla temporibus quos!</p>
+            <a href="#" class="see-more-link">See more...</a>
+        </div>
+
+
+        <div class="profile-description">
+            <h2>Experience</h2>
+            <div class="profile-desc-row">
+                <img src="images/microsoft.png" >
+                <div>
+                 <h3>Lead Front - End Developer</h3>
+                 <b>microsoft &middot; Full-time</b>
+                 <b>Jan 2018 - Present &middot; 5 years</b>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius similique vitae quibusdam dolorem! Vero similique,
+                     suscipit sunt dolorem repellat ducimus? Molestiae, nisi a.</p>
+                 <hr>
+                 </div>
+            </div>
+
+            <div class="profile-desc-row">
+                <img src="images/slack.png" >
+                <div>
+                 <h3>Lead Front - End Developer</h3>
+                 <b>microsoft &middot; Full-time</b>
+                 <b>Jan 2018 - Present &middot; 5 years</b>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius similique vitae quibusdam dolorem! Vero similique,
+                     suscipit sunt dolorem repellat ducimus? Molestiae, nisi a.</p>
+                 <hr>
+                 </div>
+            </div>
+
+            <div class="profile-desc-row">
+                <img src="images/google.png" >
+                <div>
+                 <h3>Lead Front - End Developer</h3>
+                 <b>microsoft &middot; Full-time</b>
+                 <b>Jan 2018 - Present &middot; 5 years</b>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius similique vitae quibusdam dolorem! Vero similique,
+                     suscipit sunt dolorem repellat ducimus? Molestiae, nisi a.</p>
+                 <hr>
+                 </div>
+            </div>
+            
+            <a href="#" class="experience-link">Show all 7 Experiences <img src="images/right-arrow.png" ></a>
+        </div>
+
+        <div class="profile-description">
+            <h2>Education</h2>
+            <div class="profile-desc-row">
+                <img src="images/stanford.png" >
+                <div>
+                    <h3>Stanford University</h3>
+                    <b>BSEE,Electrical Engineering</b>
+                    <b>2018 - 2022</b>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="profile-desc-row">
+                <img src="images/stanford.png" >
+                <div>
+                    <h3>Stanford University</h3>
+                    <b>BSEE,Electrical Engineering</b>
+                    <b>2018 - 2022</b>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="profile-desc-row">
+                <img src="images/stanford.png" >
+                <div>
+                    <h3>Stanford University</h3>
+                    <b>BSEE,Electrical Engineering</b>
+                    <b>2018 - 2022</b>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="profile-description">
+            <h2>Skills</h2>
+            <a href="#" class="skills-btn">Leadership</a>
+            <a href="#" class="skills-btn">Development</a>
+            <a href="#" class="skills-btn">Javascript</a>
+            <a href="#" class="skills-btn">Python</a>
+            <a href="#" class="skills-btn">Leadership</a>
+            <a href="#" class="skills-btn">Communication</a>
+        </div>
+        <div class="profile-description">
+            <h2>Language</h2>
+            <a href="#" class="language-btn">English</a>
+            <a href="#" class="language-btn">Hindi</a>
+        </div>
+
+    </div>
+    <div class="profile-sidebar">
+        <div class="sidebar-ad">
+            <small>Ad &middot;&middot;&middot;</small>
+            <p>Master the 5 principles of web design</p>
+            <div>
+                <img src="images/user-1.png" >
+                <img src="images/mi-logo.png">
+            </div>
+            <b>Brand and Demand in Xiaomi</b>
+            <a href="#" class="ad-link">Learn More</a>
+        </div>
+        <div class="sidebar-people">
+            <h3>People you may know</h3>
+            <div class="sidebar-people-row">
+                <img src="images/user-4.png" >
+                <div>
+                    <h2>Sarah Taylor</h2>
+                    <p>Team lead at Mastercard</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-people">
+            <h3>People you may know</h3>
+            <div class="sidebar-people-row">
+                <img src="images/user-4.png" >
+                <div>
+                    <h2>Sarah Taylor</h2>
+                    <p>Team lead at Mastercard</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-people">
+            <h3>People you may know</h3>
+            <div class="sidebar-people-row">
+                <img src="images/user-4.png" >
+                <div>
+                    <h2>Sarah Taylor</h2>
+                    <p>Team lead at Mastercard</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-people">
+            <h3>People you may know</h3>
+            <div class="sidebar-people-row">
+                <img src="images/user-4.png" >
+                <div>
+                    <h2>Sarah Taylor</h2>
+                    <p>Team lead at Mastercard</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-people">
+            <h3>People you may know</h3>
+            <div class="sidebar-people-row">
+                <img src="images/user-4.png" >
+                <div>
+                    <h2>Sarah Taylor</h2>
+                    <p>Team lead at Mastercard</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+        </div><div class="sidebar-people">
+            <h3>People you may know</h3>
+            <div class="sidebar-people-row">
+                <img src="images/user-4.png" >
+                <div>
+                    <h2>Sarah Taylor</h2>
+                    <p>Team lead at Mastercard</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+        </div><div class="sidebar-people">
+            <h3>People you may know</h3>
+            <div class="sidebar-people-row">
+                <img src="images/user-4.png" >
+                <div>
+                    <h2>Sarah Taylor</h2>
+                    <p>Team lead at Mastercard</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="profile-footer">
+    <div class="sidebar-useful-links">
+        <a href="#">About</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Help Center</a>
+        <a href="#">Advertising</a>
+        <a href="#">Get the App</a>
+        <a href="#">More</a>
+        <div class="copyright-msg">
+            <img src="images/logo.png">
+            <p>Linkdup &#169; All rights reserved</p>
+        </div>
+    </div>
+</div>
+
+    <script src="main.js"></script>
+    </body>
+</html>
